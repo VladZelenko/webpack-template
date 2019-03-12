@@ -1,3 +1,5 @@
+// npm install postcss-loader autoprefixer css-mqpacker cssnano --save-dev
+
 module.exports = {
   plugins: [
     require('autoprefixer'),
@@ -6,7 +8,7 @@ module.exports = {
       preset: [
         'default', {
           discardComments: {
-            removeAll: true
+            removeAll: true,
           }
         }
       ]
